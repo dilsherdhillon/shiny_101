@@ -1,0 +1,2 @@
+test_csv <- bind_cols(outcome = c(rnorm(30,1,10)),factor1 = c(rep("A",10), rep("B",10),rep("M",10)), factor2 =  c(rep("E",10), rep("C",10),rep("Z",10)))
+write_csv(test_csv, path = "test.csv")
